@@ -1,0 +1,43 @@
+body {
+	font-family: sans-serif;
+}
+
+nav ul {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+nav li {
+	display: inline;
+}
+
+nav .active {
+	font-weight: bold;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th {
+	text-align: left;
+}
+
+td,
+th {
+	border: 1px solid #888;
+	padding: 10px;
+}
+
+td:nth-child(2),
+td:nth-child(4) {
+	text-align: right;
+}
+
+form div + div {
+	margin-top: 1em;
+}
+
+form .error {
+	color: #c00;
+}
